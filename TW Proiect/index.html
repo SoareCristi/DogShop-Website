@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="poze/favicon_5Kn_icon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Dog Shop</title>
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <div id="logo_header">
+                <a href="index.html">
+                    <img src="poze/DogShop_logo.png">
+                </a>
+            </div>
+            <div id="nav_links">
+                <ul>
+                    <li class="dropdown">
+                        <a class="current" href="index.html">Produse <i id="arrow_down_nav"></i></a>
+                        <div class="dropdown_items">
+                            <a href="index.html#haine">Haine</a>
+                            <a href="index.html#accesorii">Accesorii</a>
+                        </div>
+                    </li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+
+    <main>
+        <div id="main_body">
+            <!-- Slideshow -->
+            <div class="slideshow">
+                <div class="slide">
+                    <img src="poze/banner-1.jpg" style="width:100%">
+                </div>
+              
+                <div class="slide">
+                    <img src="poze/banner-2.jpg" style="width:100%">
+                </div>
+              
+                <a class="prev" onclick="nextSlide(-1)">&#10094;</a>
+                <a class="next" onclick="nextSlide(1)">&#10095;</a>
+              </div>
+              <br>
+
+
+            <div class="title_right">
+                <h1 id="haine">Haine</h1>
+            </div>
+
+            <div class = "container_produse">
+                <!-- produs -->
+                <div class="produs">
+                    <div class="continut">
+                        <div class="poza_produs">
+                            <img src="poze/produse/0030-geaca-model-salopeta-turtle-neck-jumpsuit-reddish-orange-pentru-catei-2.png" alt="poza_produs">
+                        </div>
+                        <div class="buton_produs">
+                            <button type="button" class="button_cos">
+                                ADAUGA IN COS
+                            </button>
+                        </div>
+                    </div>
+                    <div class="info_produs">
+                        <div class="info_produs_top">
+                            <p class="categorie">HAINA</p>
+                            <div class="like_btn"><i onclick="toggle(0)" class="far fa-heart like" id="0"></i></div>
+                        </div>
+                        <a href="" class="nume_produs">SALOPETA ROZ</a>
+                        <p class="pret">$ 50</p>
+                    </div>
+                </div>
+                <!-- sf produs -->
+                <!-- produs -->
+                <div class="produs">
+                    <div class="continut">
+                        <div class="poza_produs">
+                            <img src="poze/produse/0031-geaca-model-salopeta-turtle-neck-jumpsuit-reddish-orange-pentru-catei-4.png" alt="poza_produs">
+                        </div>
+                        <div class="buton_produs">
+                            <button type="button" class="button_cos">
+                                ADAUGA IN COS
+                            </button>
+                        </div>
+                    </div>
+                    <div class="info_produs">
+                        <div class="info_produs_top">
+                            <p class="categorie">HAINA</p>
+                            <div class="like_btn"><i onclick="toggle(1)" class="far fa-heart like" id="1"></i></div>
+                        </div>
+                        <a href="" class="nume_produs">SALOPETA VERDE</a>
+                        <p class="pret">$ 50</p>
+                    </div>
+                </div>
+                <!-- sf produs -->
+                <!-- produs -->
+                <div class="produs">
+                    <div class="continut">
+                        <div class="poza_produs">
+                            <img src="poze/produse/0032-geaca-model-salopeta-turtle-neck-jumpsuit-baby-blue-pentru-catei-1.png" alt="poza_produs">
+                        </div>
+                        <div class="buton_produs">
+                            <button type="button" class="button_cos">
+                                ADAUGA IN COS
+                            </button>
+                        </div>
+                    </div>
+                    <div class="info_produs">
+                        <div class="info_produs_top">
+                            <p class="categorie">HAINA</p>
+                            <div class="like_btn"><i onclick="toggle(2)" class="far fa-heart like" id="2"></i></div>
+                        </div>
+                        <a href="" class="nume_produs">SALOPETA ALBASTRA</a>
+                        <p class="pret">$ 50</p>
+                    </div>
+                </div>
+                <!-- sf produs -->
+                <!-- produs -->
+                <div class="produs">
+                    <div class="continut">
+                        <div class="poza_produs">
+                            <img src="poze/produse/0035-geaca-dot-coat-baby-blue-pentru-catei-1.png" alt="poza_produs">
+                        </div>
+                        <div class="buton_produs">
+                            <button type="button" class="button_cos">
+                                ADAUGA IN COS
+                            </button>
+                        </div>
+                    </div>
+                    <div class="info_produs">
+                        <div class="info_produs_top">
+                            <p class="categorie">HAINA</p>
+                            <div class="like_btn"><i onclick="toggle(3)" class="far fa-heart like" id="3"></i></div>
+                        </div>
+                        <a href="" class="nume_produs">GEACA IMBLANITA</a>
+                        <p class="pret">$ 50</p>
+                    </div>
+                </div>
+                <!-- sf produs -->
+                <!-- produs -->
+                <div class="produs">
+                    <div class="continut">
+                        <div class="poza_produs">
+                            <img src="poze/produse/0037-geaca-wonderful-jacket-army-green-pentru-catei-1.png" alt="poza_produs">
+                        </div>
+                        <div class="buton_produs">
+                            <button type="button" class="button_cos">
+                                ADAUGA IN COS
+                            </button>
+                        </div>
+                    </div>
+                    <div class="info_produs">
+                        <div class="info_produs_top">
+                            <p class="categorie">HAINA</p>
+                            <div class="like_btn"><i onclick="toggle(4)" class="far fa-heart like" id="4"></i></div>
+                        </div>
+                        <a href="" class="nume_produs">GEACA WONDERFUL VERDE</a>
+                        <p class="pret">$ 50</p>
+                    </div>
+                </div>
+                <!-- sf produs -->
+                <!-- produs -->
+                <div class="produs">
+                    <div class="continut">
+                        <div class="poza_produs">
+                            <img src="poze/produse/0039-geaca-wonderful-jacket-deep-orange-pentru-catei-1.png" alt="poza_produs">
+                        </div>
+                        <div class="buton_produs">
+                            <button type="button" class="button_cos">
+                                ADAUGA IN COS
+                            </button>
+                        </div>
+                    </div>
+                    <div class="info_produs">
+                        <div class="info_produs_top">
+                            <p class="categorie">HAINA</p>
+                            <div class="like_btn"><i onclick="toggle(5)" class="far fa-heart like" id="5"></i></div>
+                        </div>
+                        <a href="" class="nume_produs">GEACA WONDERFUL PORTOCALIE</a>
+                        <p class="pret">$ 50</p>
+                    </div>
+                </div>
+                <!-- sf produs -->
+            </div>
+
+            <div class="title_left">
+                <h1 id="accesorii">Accesorii</h1>
+            </div>
+
+            <div class = "container_produse">
+                <!-- produs -->
+                <div class="produs">
+                    <div class="continut">
+                        <div class="poza_produs">
+                            <img src="poze/produse/Accesorii/0501-pandantiv-ribbon-charm-pentru-catei-1-425x425.png" alt="poza_produs">
+                        </div>
+                        <div class="buton_produs">
+                            <button type="button" class="button_cos">
+                                ADAUGA IN COS
+                            </button>
+                        </div>
+                    </div>
+                    <div class="info_produs">
+                        <div class="info_produs_top">
+                            <p class="categorie">ACCESORII</p>
+                            <div class="like_btn"><i onclick="toggle(6)" class="far fa-heart like" id="6"></i></div>
+                        </div>
+                        <a href="" class="nume_produs">PANDANTIV PANGLICA</a>
+                        <p class="pret">$ 50</p>
+                    </div>
+                </div>
+                <!-- sf produs -->
+                <!-- produs -->
+                <div class="produs">
+                    <div class="continut">
+                        <div class="poza_produs">
+                            <img src="poze/produse/Accesorii/0272-pandantiv-swarovski-rainbow-pentru-caini-1-1080x1080.png" alt="poza_produs">
+                        </div>
+                        <div class="buton_produs">
+                            <button type="button" class="button_cos">
+                                ADAUGA IN COS
+                            </button>
+                        </div>
+                    </div>
+                    <div class="info_produs">
+                        <div class="info_produs_top">
+                            <p class="categorie">ACCESORII</p>
+                            <div class="like_btn"><i onclick="toggle(7)" class="far fa-heart like" id="7"></i></div>
+                        </div>
+                        <a href="" class="nume_produs">PANDANTIV RAINBOW</a>
+                        <p class="pret">$ 50</p>
+                    </div>
+                </div>
+                <!-- sf produs -->
+                <!-- produs -->
+                <div class="produs">
+                    <div class="continut">
+                        <div class="poza_produs">
+                            <img src="poze/produse/Accesorii/0231-set-zgarda-si-lesa-blue-crocodile-leather-pentru-caini-3-1080x1080.png" alt="poza_produs">
+                        </div>
+                        <div class="buton_produs">
+                            <button type="button" class="button_cos">
+                                ADAUGA IN COS
+                            </button>
+                        </div>
+                    </div>
+                    <div class="info_produs">
+                        <div class="info_produs_top">
+                            <p class="categorie">ACCESORII</p>
+                            <div class="like_btn"><i onclick="toggle(8)" class="far fa-heart like" id="8"></i></div>
+                        </div>
+                        <a href="" class="nume_produs">ZGARDA BLUE ALIGATOR</a>
+                        <p class="pret">$ 50</p>
+                    </div>
+                </div>
+                <!-- sf produs -->
+                <!-- produs -->
+                <div class="produs">
+                    <div class="continut">
+                        <div class="poza_produs">
+                            <img src="poze/produse/Accesorii/0232-set-zgarda-si-lesa-polka-dot-glitter-collar-pentru-caini-1-1080x1080.png" alt="poza_produs">
+                        </div>
+                        <div class="buton_produs">
+                            <button type="button" class="button_cos">
+                                ADAUGA IN COS
+                            </button>
+                        </div>
+                    </div>
+                    <div class="info_produs">
+                        <div class="info_produs_top">
+                            <p class="categorie">ACCESORII</p>
+                            <div class="like_btn"><i onclick="toggle(9)" class="far fa-heart like" id="9"></i></div>
+                        </div>
+                        <a href="" class="nume_produs">ZGARDA POLKA DOT</a>
+                        <p class="pret">$ 50</p>
+                    </div>
+                </div>
+                <!-- sf produs -->
+                <!-- produs -->
+                <div class="produs">
+                    <div class="continut">
+                        <div class="poza_produs">
+                            <img src="poze/produse/Accesorii/0307-jucarie-yellow-taxi-pentru-caini-1-1080x1080.png" alt="poza_produs">
+                        </div>
+                        <div class="buton_produs">
+                            <button type="button" class="button_cos">
+                                ADAUGA IN COS
+                            </button>
+                        </div>
+                    </div>
+                    <div class="info_produs">
+                        <div class="info_produs_top">
+                            <p class="categorie">JUCARIIs</p>
+                            <div class="like_btn"><i onclick="toggle(10)" class="far fa-heart like" id="10"></i></div>
+                        </div>
+                        <a href="" class="nume_produs">plus taxi</a>
+                        <p class="pret">$ 50</p>
+                    </div>
+                </div>
+                <!-- sf produs -->
+            </div>
+
+        </div>
+    </main>
+    
+
+    <footer>
+        <div id="footer">
+            <div id="logo_footer">
+                <a href="index.html">
+                    <img src="poze/DogShop_logo.png" alt="">
+                </a>
+            </div>
+
+            <div id="socials_footer">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/dogshopromania">
+                            <img src="poze/facebook-instagram-01.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/dogshop.ro/">
+                            <img src="poze/facebook-instagram-02.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="back_to_top">
+                <a href="index.html">Inapoi la site &#11149</a>
+            </div>
+        </div>
+        <div id="footer_low">
+            <p>copyright Cristi Soare</p>
+        </div>
+    </footer>
+
+    <script src="js/index_script.js"></script>
+
+</body>
+
+</html>

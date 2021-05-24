@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="poze/favicon_5Kn_icon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Dog Shop</title>
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <div id="logo_header">
+                <a href="index.html">
+                    <img src="poze/DogShop_logo.png">
+                </a>
+            </div>
+            <div id="nav_links">
+                <ul>
+                    <li class="dropdown">
+                        <a href="index.html">Produse <i id="arrow_down_nav"></i></a>
+                        <div class="dropdown_items">
+                            <a href="index.html#haine">Haine</a>
+                            <a href="index.html#accesorii">Accesorii</a>
+                        </div>
+                    </li>
+                    <li><a class="current" href="Contact.html">Contact</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+
+    <main>
+        <div id="main_body">
+            
+            <h1 id="contact_title">Contact</h1>
+            <section id="contact_info">
+                <div id="js_create_name"></div>
+                <p>Simte-te liber sa ne contactezi!</p>
+                <b>tel:</b> 0700 000 000 <b>|</b> <b>emali:</b> dog.shop2001@yahoo.com
+            </section>
+
+            <section id="contact_form">
+                <form id="contact" action="" method="post">
+
+                    <fieldset>
+                      <input id="nume" placeholder="Prenume Nume" type="text">
+                    </fieldset>
+                    <fieldset>
+                      <input id="email" placeholder="Email" type="email">
+                    </fieldset>
+                    <fieldset>
+                      <input placeholder="Nr. Tel (optional)" type="tel">
+                    </fieldset>
+                    <fieldset>
+                      <textarea placeholder="Mesaj"></textarea>
+                    </fieldset>
+                    <fieldset>
+                      <button id="submit" type="button" onclick="submit_name()">Submit</button>
+                    </fieldset>
+
+                </form>
+            </section>
+
+
+
+
+
+        </div>
+    </main>
+    
+
+    <footer>
+        <div id="footer">
+            <div id="logo_footer">
+                <a href="index.html">
+                    <img src="poze/DogShop_logo.png" alt="">
+                </a>
+            </div>
+
+            <div id="socials_footer">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/dogshopromania">
+                            <img src="poze/facebook-instagram-01.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/dogshop.ro/">
+                            <img src="poze/facebook-instagram-02.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="back_to_top">
+                <a href="index.html">Inapoi la site &#11149</a>
+            </div>
+        </div>
+        <div id="footer_low">
+            <p>copyright Cristi Soare</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/contact_script.js"></script>
+
+</body>
+
+</html>
