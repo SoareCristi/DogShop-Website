@@ -42,6 +42,7 @@ function showSlides(n) {
 //Like button
 var like_btn = document.getElementsByClassName('like');
 console.log(like_btn);
+
 function like_randomiser(x){
     var min = 0, max = 255;
     var r, g, b;
@@ -53,15 +54,13 @@ function like_randomiser(x){
 }
 
 function toggle(x){
-    if (like_btn[x].classList.contains("far")){
-        like_btn[x].classList.remove("far");
+    if (like_btn[x].innerText == "favorite_border"){
+        like_btn[x].innerText = "favorite"; 
         like_randomiser(x);
-        like_btn[x].classList.add("fas");
     }
     else{
-        like_btn[x].classList.remove("fas");
+        like_btn[x].innerText = "favorite_border";
         like_btn[x].style.color = null;
-        like_btn[x].classList.add("far");
     }
 }
 //Like button end
